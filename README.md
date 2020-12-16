@@ -3,7 +3,7 @@ Sample Ethereum smart contract for the Security class seminar at UNIBO
 
 ## Install 
 
-To install the project clone the repository and install the node dependencies
+To install the project, clone the repository and install the node dependencies
 
 ```
 git clone https://github.com/ale8193/ethereum-smart-contract-exercise.git
@@ -29,10 +29,10 @@ MNEMOMIC=<YOUR_METAMASK_MNEMOMIC>
 INFURA_NODE_URL=https://rinkeby.infura.io/v3/<YOUR_APP_TOKEN>
 ```
 
-The ``MNEMOMIC`` is the set of worlds given to you by metamask when you create a new account.
+The ``MNEMOMIC`` is the set of words given to you by metamask when you create a new account.
 
-The ``INFURA_NODE_URL`` is the token to Ethereum Rinkeby network for deploy the smart contract. 
-You can get is by logging to the [infura.io](https://infura.io/), then create a project and select the key for the Rinkeby network.
+The ``INFURA_NODE_URL`` is the token to Ethereum Rinkeby network for deploying the smart contract. 
+You can get it by logging to the [infura.io](https://infura.io/), then create a project and select the key for the Rinkeby network.
 
 Finally, deploy the contract by running:
 
