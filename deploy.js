@@ -12,7 +12,7 @@ dotenv.config({
 // We need to create an instance of provider in order to connect to the Rinkeby network through the Infura node
 const provider = new HDWallerProvider(
     process.env.MNEMOMIC, // mnemomic of an Ethereum account
-    'https://rinkeby.infura.io/v3/9a07c0fecb774560873688488f1e09a6'  // We need a real node of the Rinkeby network in order to deploy the contract, so we use infura which offers an api for accessing the network
+    process.env.INFURA_NODE_URL  // We need a real node of the Rinkeby network in order to deploy the contract, so we use infura which offers an api for accessing the network
 );
 
 const web3 = new Web3(provider);
