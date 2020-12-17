@@ -22,7 +22,7 @@ npm run test
 
 ## Deploy a contract on rinkeby
 
-Firstly, set the `.env` variables by creating it (or renaming the `.env.sample` file) with the following content:
+Firstly, set the environment variables by creating the `.env` file (or renaming the `.env.sample` file) with the following content:
 
 ```
 MNEMOMIC=<YOUR_METAMASK_MNEMOMIC>
@@ -48,6 +48,14 @@ Firstly, you need to install the node dependencies also for the frontend, so run
 cd frontend
 npm install
 ```
+
+Secondly, set the environment variables by creating the `.env` file inside the `frontend` folder (or renaming the `frontend/.env.sample` file) with the following content:
+
+```
+REACT_APP_LOTTERY_ADDRESS=<YOUR_DEPLOYED_SMART_CONTRACT_ADDRESS>
+```
+
+The ``YOUR_DEPLOYED_SMART_CONTRACT_ADDRESS`` is the address of the contract deployed on the Rinkeby network
 
 Finally, run the start script inside the ``frontend`` folder
 

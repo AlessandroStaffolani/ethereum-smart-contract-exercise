@@ -2,7 +2,7 @@ import web3 from "./web3";
 
 console.log(web3)
 
-const address = "0x87EE4615927fa371c15206Bcc102034183E908e4";
+const address = process.env.REACT_APP_LOTTERY_ADDRESS;
 
 const abi = [
   {
